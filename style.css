@@ -1,0 +1,505 @@
+/*Global Css*/
+	*{
+	margin: 0;
+	}
+	body{
+	font-family: 'Ubuntu', sans-serif;
+	}
+	.container{
+	width: 1140px;
+	margin:0 auto;
+	}
+	.container-fluid{
+	width: 100%;
+	}
+	.row{
+	width: 100%;
+	}
+	.col-1 {
+	width: 8.333333%;
+	float:left;
+	}
+	
+	.col-2 {
+	width: 16.666667%;
+	float:left;
+	}
+	
+	.col-3 {
+	width: 25%;
+	float:left;
+	}
+	
+	.col-4 {
+	width: 33.333333%;
+	float:left;
+	}
+	
+	.col-5 {
+	width: 41.666667%;
+	float:left;
+	}
+	
+	.col-6 {
+	width: 50%;
+	float:left;
+	}
+	
+	.col-7 {
+	width: 58.333333%;
+	float:left;
+	}
+	
+	.col-8 {
+	width: 66.666667%;
+	float:left;
+	}
+	
+	.col-9 {
+	width: 75%;
+	float:left;
+	}
+	
+	.col-10 {
+	width: 83.333333%;
+	float:left;
+	}
+	
+	.col-11 {
+	width: 91.666667%;
+	float:left;
+	}
+	
+	.col-12 {
+	width: 100%;
+	float:left;
+	}
+	
+	.img-fluid{
+	width: 100%;
+	}
+	
+	.home {
+	float: left;
+	margin: 5px;
+	padding: 15px;
+	max-width: 300px;
+	height: 300px;
+	border: 1px solid black;}
+	
+	section{
+	float: left;
+	width: 100%;
+	}
+	
+	/*header section css*/
+	
+	header{
+	background: url(img/header_bg.png);
+
+	height: 700px;
+	background-position: center;
+	background-size: cover;
+	}
+	
+	header .navbar{
+	margin-top: 20px;
+	}
+	
+	header .navbar .logo{
+	width: 7%;
+	float: left;
+	}
+	
+	header .navbar .logo img{}
+	
+	header .navbar .menu{
+	width: 93%;
+	float: left;
+	}
+	
+	header .navbar .menu ul{
+	padding-left: 0;
+	float: right;
+	margin-top: 7px;
+	}
+	
+	header .navbar .menu ul li{
+	list-style: none;
+	display: inline-block;
+	}
+	
+	header .navbar .menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 20px;
+	display: inline-block;
+	border-bottom: 2px solid transparent;
+	}
+	
+	header .navbar .menu ul li:last-child a{
+	border-bottom: none;
+	}
+	
+	header .navbar .menu ul li a:hover{
+	border-bottom: 2px solid #fff;
+	}
+	
+	header .navbar .menu ul li:last-child a:hover{
+	border-bottom: none;
+	}
+	
+	header .navbar .menu .btn-login{
+	background:#fff;
+	color: #232323;
+	border-radius: 25px;
+	}
+	
+	header .content-area{
+	text-align: center;
+	margin-top: 120px;
+	}
+	
+	header .content-area h1{
+	color: #fff;
+	font-size: 50px;
+	padding:0 20%;
+	margin-bottom: 20px; 
+	}
+	
+	header .content-area p{
+	color: #fff;
+	padding: 0 23%;
+	line-height: 1.7;
+	margin-bottom: 50px;
+	}
+	
+	header .content-area .btn-cta{
+	text-decoration: none;
+	background: #fff;
+	padding: 15px 30px;
+	border-radius: 30px;
+	color: #4856f3;
+	display: inline-block;
+	}
+	
+	header .content-area .btn-cta:hover{}
+	
+	/*About section css*/
+	.about_us{
+	font-family: 'Hind Guntur', sans-serif;
+	}
+	
+	.about_us .content{
+	padding: 10%;
+	}
+	
+	.about_us .content h6{
+	color: #9f9f9f;
+	text-align: right;
+	font-size: 16px;
+	margin-bottom: 10px;
+	}
+	
+	.about_us .content h2{
+	font-size: 40px;
+	text-align: right;
+	padding-left: 50%; 
+	margin-bottom: 50px;
+	line-height: 1.3;
+	}
+	
+	.about_us .content .inner-content{
+	float: left;
+	width: 100%;
+	margin-bottom: 10%;
+	}
+	
+	.about_us .content .solution{
+	margin-bottom: 10px;
+	}
+	
+	.about_us .content h4{
+	font-size: 20px;
+	text-align: right;
+	margin-bottom: 18px;
+	}
+	
+	.about_us .content p{
+	padding-left: 40%;
+	text-align: right;
+	line-height: 1.7;
+	}
+	
+	.about_us .content img{
+	float: right;
+	}
+	
+	.about_img{
+	background: url(img/about_bg.png);
+	height: 700px;
+
+	background-position: center;
+	background-size: cover;
+	}
+	
+	/*WHAT WE DO SECTION CSS*/
+	
+	.WHAT_WE_DO{
+	height: auto;
+	background: #faf8f5;
+	font-family: 'Hind Guntur', sans-serif;
+	}
+	
+	.WHAT_WE_DO .offers{
+	margin-top: 80px;
+	margin-bottom: 80px;
+	}
+	
+	.WHAT_WE_DO .offers ul{ 
+	padding: 10px;
+	}
+	
+	.WHAT_WE_DO .offers ul li{
+	list-style: none;
+	margin-left: 0;
+	background:#ffffff; 
+	padding: 30px; 
+	height: 20px;
+	margin-bottom: 10px;
+	margin-left: 20%;
+	margin-right: 30%;
+	color: #9f9f9f;
+	border-radius: 5px;
+	cursor: pointer;
+	}
+	
+	.WHAT_WE_DO .offers ul li:hover .col-10{
+	color: #294af1;
+	}
+	
+	.WHAT_WE_DO .offers ul li:hover .col-2{
+	color: #fc6221;
+	}
+	
+	.offer_about{
+	margin-top: 150px;
+	}
+	
+	.offer_about h6{
+	color: #9f9f9f;
+	font-size: 15px;
+	line-height: 1.7;
+	margin-bottom: 20px;
+	}
+	
+	.offer_about h2{
+	font-size: 40px;
+	padding-right: 40%;
+	color: #171717;
+	margin-bottom: 20px;
+	line-height: 1.5;
+	font-family: 'Hind Guntur', sans-serif;
+	}
+	
+	.offer_about p{
+	line-height: 1.7;
+	margin-right: 20%;
+	color: #505457;
+	}
+	
+	/*Service We are Offering section css*/
+	
+	.service_offiers{
+	font-family: 'Hind Guntur', sans-serif;
+	}
+	
+	.service_offiers .service_info h2{
+	text-align: center;
+	font-size: 50px;
+	margin: 0 30%;
+	margin-top: 100px;
+	margin-bottom: 10px;
+	line-height: 1.3;
+	font-family: 'Hind Guntur', sans-serif;
+	font-weight: normal;
+	}
+	
+	.service_offiers .service_info p{
+	text-align: center;
+	margin: 0 30%;
+	line-height: 1.7;
+	color: #9f9f9f;
+	margin-bottom: 100px;
+	}
+	
+	.service_offiers .service_detels img{
+	margin-bottom: 30px;
+	}
+	
+	.service_offiers .service_detels h3{
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-family: 'Hind Guntur', sans-serif;
+	}
+	
+	.service_offiers .service_detels p{
+	text-align: left;
+	margin-right: 40%;
+	margin-bottom: 100px;
+	color: #505457;
+	}
+	
+	/*thinking_for section css*/
+	
+	.thinking_for{
+	height: auto;
+	background: url(img/get-stert.png);
+	background-size: cover;
+	background-position: center;
+	}
+	
+	.thinking_for h3{
+	font-size: 40px;
+	text-align: center;
+	padding-top: 100px;
+	margin-bottom: 50px;
+	color: #ffffff;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: normal;
+	}
+	
+	.thinking_for p{
+	text-align: center;
+	padding: 0 25%;
+	font-size: 20px;
+	line-height: 1.7;
+	margin-bottom: 50px;
+	color: #ffffff;
+	font-family: 'Poppins', sans-serif;
+	}
+	
+	.thinking_for ul{
+	list-style: none;
+	text-align: center;
+	margin-bottom: 100px;
+	}
+	
+	.thinking_for ul li{
+	display: inline-block;
+	padding: 10px;
+	}
+	
+	.thinking_for ul li a{
+	padding: 20px 35px; 
+	border-radius: 30px;
+	text-decoration: none;
+	color: #fff;
+	}
+	
+	.thinking_for ul li:first-child a{
+	background: white;
+	color: #171717;
+	}
+	
+	/*clint_area section css*/
+	
+	.left_clint{
+	float: left;
+	margin-top: 100px;
+	margin-bottom: 80px;
+	}
+	
+	.left_clint ul{
+	float: left;
+	}
+	
+	.left_clint ul li{
+	float: left;
+	margin-left: 0;
+	list-style: none;
+	padding: 15px;
+	}
+	
+	.right_clint{
+	float: right;
+	width: 100%;
+	margin-top: 90px;
+	}
+	
+	.right_clint h6{
+	margin-top: 90px;
+	color: #9f9f9f;
+	font-weight: normal;
+	margin-bottom: 15px;
+	font-size: 18px;
+	}
+	
+	.right_clint h2{
+	font-size: 42px;
+	margin-right: 20%;
+	font-weight: normal;
+	margin-bottom: 40px;
+	}
+	
+	.right_clint p{
+	padding-right: 17%;
+	font-size: 17px;
+	color: #505457;
+	margin-bottom: 10px;
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.8;
+	}
+	/*footer section css*/
+	
+	.footer{
+	background: url(img/footer.png);
+	background-position: center;
+	background-size: cover;
+	height: 500px; 
+
+	}
+	
+	.footer .left_footer{
+	color: #fff;
+	margin-top: 120px;
+	}
+	
+	.footer .left_footer img{
+	width: 25%;
+	margin-bottom: 30px;
+	}
+	
+	.footer .left_footer p{
+	font-size: 16px;
+	padding-right: 12%;
+	line-height: 1.7;
+	font-family: 'Poppins', sans-serif;
+	}
+	
+	.footer .right_footer{
+	height: 100px;
+	margin-top: 120px;
+	margin-left: 5%; 
+	font-size: 18px;
+	}
+	
+	.footer .right_footer ul li{
+	margin-left: 0;
+	list-style: none;
+	margin-bottom: 15px;
+	}
+	
+	.footer .right_footer ul li:first-child{
+	font-weight: bold;
+	margin-bottom: 30px;
+	}
+	
+	.footer .right_footer ul li a{
+	color: #fefeff;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+	}
+	
+	.footer .right_footer ul li a:hover{
+	border-bottom: 2px solid white;
